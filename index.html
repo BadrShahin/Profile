@@ -49,7 +49,7 @@
 		<hr>
 	</article>
 	<article class="row">
-		<table id="infoTable">
+		<table id="table" style="text-align: left;">
 			<th colspan="2"><p>Personal Information:</p></th>
 			<tr ng-repeat="x in info">
 				<td><p>{{x.info_desc}}</p></td>
@@ -59,7 +59,23 @@
 	</article>
 	<article class="row" id="hr">
 		<hr>
+	</article>
+	<article class="row">
+		<table id="table" style="text-align: left;">
+			<th colspan="2"><p>Education:</p></th>
+			<tr ng-repeat="x in education">
+				<td><p>{{x.school_name}}</p></td>
+				<td>
+					<p>{{x.school_name}}</p>
+					<p>{{x.year}}</p>
+					<p>{{x.content}}</p>
+					<p>{{x.courses}}</p>
+				</td>
+			</tr>
+		</table>
 	</article>	
-
+	<article class="row" id="hr">
+		<hr>
+	</article>
 </body>
 </html>
