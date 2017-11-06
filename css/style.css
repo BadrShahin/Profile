@@ -52,6 +52,20 @@ body{
     display: inline-block;
 	background-color:#222;
 }
+#short_desc{
+	color: #EEE;
+	font-size: 32px;
+	margin-left: 20%;
+	word-spacing: 2px;
+	line-height: 30px;
+	font-weight: bolder;
+	display: inline-block;
+	font-family:"Times New Roman", serif, sans-serif, cursive;
+}
+#short_desc span{
+	color: #BBB;
+	font-size: 16px;
+}
 #hr{
 	background-color: #595145;
 }
@@ -76,6 +90,18 @@ hr{
     		height: 25px;
     		font-size: 10px;
     		padding-top: 2%;
+	}
+	#short_desc{
+		margin: 0;
+		float: right;
+		font-size: 16px;
+		line-height: 15px;
+		padding: 0 0 0 5%;
+		word-spacing: normal;
+	}
+	#short_desc span{
+		font-size: 8px;
+		word-spacing: normal;
 	}
 	#menuUl li{
 		font-size: 25px;
