@@ -124,5 +124,7 @@ hr{
 	#menuUl li{
 		font-size: 12px;
 	}
-
+	#infoTable{
+		font-size: 14px;
+	}
 }
