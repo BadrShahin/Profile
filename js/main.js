@@ -13,4 +13,15 @@ angular.module("myApp", []).controller("myCtrl", function($scope){
 	{name:'About', url:'#about'},
 	{name:'Contact', url:'#contact'}
 	];
+	$scope.info=[
+	{info_desc:'Name', info_value: 'Badr Shahin'},
+	{info_desc:'Mobile', info_value: '01143800132 - 01013824412'},
+	{info_desc:'Email', info_value: 'badr.shahin2014@gmail.com'},
+	{info_desc:'Date of Birth', info_value: '1995-01-15'},
+	{info_desc:'Nationality', info_value: 'Egyptian'},
+	{info_desc:'Gender', info_value: 'Male'},
+	{info_desc:'Military Service', info_value: 'Exempted'},
+	{info_desc:'Languages', info_value: 'Arabic - English'},
+
+	];
 });
