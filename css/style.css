@@ -1,0 +1,76 @@
+body{
+	background-color: #555;
+}
+#logoImage{
+	float: left;
+	margin: 8% 0 15% 0;
+	box-shadow: 10px 10px 10px;
+	cursor: pointer;
+	transition: all linear 0.25s;
+}
+#logoImage:hover {
+	transform:scale(1.25);
+}
+
+/* Style all font awesome icons */
+#socialUl, #menuUl{
+	list-style-type: none;
+}
+#socialUl a, #menuUl a{
+	text-decoration: none;
+}
+.topnav{
+	background-color: #222;
+}
+#menuUl li{
+	float: left;
+	padding: 0 2%;
+	font-size: 35px;
+	word-spacing: 5px;
+	letter-spacing: 2px;
+	font-weight: bolder;
+	display: inline-block;
+	font-family: 'Rochester', cursive;
+}
+#menuUl a{
+	color: #0e4ec2;
+}
+#menuUl a:hover{
+	color: #457fe9;
+	background-color: #333;
+}
+.fa{
+	color: #0e4ec2;
+    width: 40px;
+	height: 40px;
+	float: right;
+	font-size: 18px;
+	padding-top: 2%;
+    text-align: center;
+	border-radius: 30px;
+	margin: 5% 1% 1% 1%;
+    display: inline-block;
+	background-color:#222;
+}
+#hr{
+	background-color: #595145;
+}
+hr{
+	width: 100%;
+	height: 2px;
+	border: none;
+	background-color: #999;
+}
+@media screen and (max-width: 1024px){
+	#logoImage{
+		width: 35%;
+	}
+	.fa{
+		width: 25px;
+		height: 25px;
+	}
+	#menuUl li{
+		font-size: 25px;
+	}
+
+}

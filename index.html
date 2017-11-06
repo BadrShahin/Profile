@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Profile</title>
+	<style type="text/css">
+		header{
+			background-image: url('images/header_background.jpg');
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rochester" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body class="container" ng-app="myApp" ng-controller="myCtrl">
+	<header class="row">
+		<section>
+			<div class="col-sm-1 col-md-2 col-lg-2">
+				<picture>
+					<img class="img-responsive img-circle" src="images/badr.jpg" alt="badr shahin" title="Badr Shahin" id="logoImage">
+				</picture>
+			</div>
+			<div class="col-md-8">
+				<ul id="socialUl">
+					<li ng-repeat="icon in socialIcons"><a class={{icon.class}} href={{icon.url}} target="_blank"></a></li>
+				</ul>
+			</div>
+			<div class="topnav col-md-12">
+				<ul id="menuUl">
+					<li ng-repeat="item in menuItems">
+						<a href={{item.url}}>{{item.name}}</a>
+					</li>
+					<!--<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>-->
+				</ul>
+			</div>
+		</section>
+	</header>	
+	<article class="row" id="hr">
+		<hr>
+	</article>
+	<article class="row">
+		<table>
+			<tr>
+				<td
+			</tr>
+		</table>
+	</article>
+
+</body>
+</html>
