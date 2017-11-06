@@ -49,12 +49,17 @@
 		<hr>
 	</article>
 	<article class="row">
-		<table>
-			<tr>
-				<td
+		<table id="infoTable">
+			<th colspan="2"><h3>Personal Information:</h3></th>
+			<tr ng-repeat="x in info">
+				<td><h4>{{x.info_desc}}</h4></td>
+				<td><h4>{{x.info_value}}</h4></td>
 			</tr>
 		</table>
 	</article>
+	<article class="row" id="hr">
+		<hr>
+	</article>	
 
 </body>
 </html>
