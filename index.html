@@ -61,7 +61,7 @@
 		<hr>
 	</article>
 	<article class="row">
-		<table id="table" style="text-align: left;">
+		<table id="table">
 			<th colspan="2"><p>Education:</p></th>
 			<tr ng-repeat="x in education">
 				<td><p>{{x.school_name}}</p></td>
@@ -77,5 +77,16 @@
 	<article class="row" id="hr">
 		<hr>
 	</article>
+	<article class="row">
+		<table id="table">
+			<th colspan="2"><p>Experience:</p></th>
+			<tr ng-repeat="x in experience ">
+				<td colspan="2">
+					<p ng-click="showDesc()">{{x.exper_desc}}</p>
+					<p ng-show="showSkill"><span style="color: red">Skills: &nbsp;&nbsp;&nbsp; {{x.exper_skill}}</span></p>
+				</td>
+			</tr>
+		</table>
+	</article>	
 </body>
 </html>
