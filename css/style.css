@@ -79,7 +79,10 @@ hr{
 #table{
 	width: 100%;
 	font-size: 20px;
-	text-align: center;
+	text-align: left;
+}
+th p{
+	font-size: 25px;
 }
 #table, th, td{
   	padding: 5px;
@@ -124,6 +127,9 @@ hr{
 	#table{
 		font-size: 14px;
 		text-align: left;
+	}
+	th p{
+		font-size: 20px;
 	}
 	#table, th, td{
   		padding: 7px 0 0 7px;
