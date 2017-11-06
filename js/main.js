@@ -36,7 +36,7 @@ angular.module("myApp", []).controller("myCtrl", function($scope){
 	{exper_desc:'Web Development.', exper_skill: 'HTML - HTML5 - CSS - Bootstrap - Java Script - Angular Js - PHP Basic - mySQL.'},
 	{exper_desc:'Mobile Development.', exper_skill: 'Android.'},
 	{exper_desc:'Java (SE - EE).', exper_skill: 'Stander Edition(SE) - Enterprise Edition(EE).'},
-	{exper_desc:'System Analysis.', exper_skill: ''},
+	{exper_desc:'System Analysis.', exper_skill: 'Software Development Life Cycle, Project Management, Planning, Analysis, Processing, Design, Implementation, Maintenance.'},
 	{exper_desc:'Graphic Design.', exper_skill: 'Photoshop - Unity.'},
 	];
 	$scope.showDesc = function(){
