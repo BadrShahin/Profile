@@ -27,6 +27,6 @@ angular.module("myApp", []).controller("myCtrl", function($scope){
 	$scope.education=[
 	{school_name:'Mostafa Kamel Preparatory school', year: '2008 - 2011', content: 'I graduated from Preparatory school with an Excellent Degree (91%).', courses: ''},
 	{school_name:'High secondary school', year: '2011 - 2013', content: 'I graduated from High secondary school with an Excellent Degree (93.2%).', courses: ''},
-	{school_name:'Faculty of Computer and Information', year: '2013 - 2017', content: 'I graduated from faculty of Computer and Information Menofia University with grade good (71.63%).', courses: 'I studied some useful courses like Operating systems, Database Design, Software Engineering Java Programming, Computer Network, Data Structure and System Analysis.'},
+	{school_name:'Faculty of Computer and Information', year: '2013 - 2017', content: 'I graduated from faculty of Computer and Information Menofia University with grade good (71.63%).', courses: 'I studied some useful courses like Operating systems, Database Design, Software Engineering, Java Programming, Computer Network, Data Structure and System Analysis.'},
 	];
 });
