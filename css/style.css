@@ -94,13 +94,13 @@ hr{
 	#short_desc{
 		margin: 0;
 		float: right;
-		font-size: 16px;
+		font-size: 12px;
 		line-height: 15px;
-		padding: 0 0 0 5%;
+		padding: 2% 0 0 5%;
 		word-spacing: normal;
 	}
 	#short_desc span{
-		font-size: 8px;
+		font-size: 6px;
 		word-spacing: normal;
 	}
 	#menuUl li{
