@@ -3,7 +3,7 @@ body{
 }
 #logoImage{
 	float: left;
-	margin: 8% 0 15% 0;
+	margin: 8% 0 15% 35%;
 	box-shadow: 10px 10px 10px;
 	cursor: pointer;
 	transition: all linear 0.25s;
@@ -45,10 +45,10 @@ body{
 	height: 40px;
 	float: right;
 	font-size: 18px;
-	padding-top: 2%;
+	padding-top: 1%;
     text-align: center;
 	border-radius: 30px;
-	margin: 5% 1% 1% 1%;
+	margin: 5% 3% 1% 0;
     display: inline-block;
 	background-color:#222;
 }
@@ -61,13 +61,21 @@ hr{
 	border: none;
 	background-color: #999;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 992px){
 	#logoImage{
-		width: 35%;
+		width: 18%;
+		margin: 7%;
+	}
+}
+@media screen and (max-width: 600px){
+	#logoImage{
+		width: 14%;
+		margin: 5%;
 	}
 	.fa{
 		width: 25px;
 		height: 25px;
+		font-size: 14px;
 	}
 	#menuUl li{
 		font-size: 25px;
