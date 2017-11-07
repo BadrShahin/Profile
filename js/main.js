@@ -42,4 +42,12 @@ angular.module("myApp", []).controller("myCtrl", function($scope){
 	$scope.showDesc = function(){
 		$scope.showSkill = !$scope.showSkill;
 	}
+
+	$scope.works=[
+	{name: 'Online Media', imageSrc: 'images/online.jpg', url: 'https://ma114u.000webhostapp.com/'},
+	{name: 'Creatives Digital Agency', imageSrc: 'images/creative.jpg', url: 'https://badrshahin.github.io/Creative-Digital-Agencies-Website-/'},
+	{name: 'jewelery', imageSrc: 'images/jewelery.jpg', url: 'https://badrshahin.github.io/Jewelery-website-/'},
+	{name: 'Liquid gem', imageSrc: 'images/liquid.jpg', url: 'https://badrshahin.github.io/Liquid-gem/'},
+	{name: 'Elena', imageSrc: 'images/elena.jpg', url: 'https://badrshahin.github.io/Elena/'}
+	];
 });
