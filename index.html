@@ -5,8 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Profile</title>
 	<style type="text/css">
-		header{
+		header, footer{
 			background-image: url('images/header_background.jpg');
+		}
+		#contact{
+			background-image: url('images/creative.jpg');
 		}
 	</style>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -82,11 +85,84 @@
 			<th colspan="2"><p>Experience:</p></th>
 			<tr ng-repeat="x in experience ">
 				<td colspan="2">
-					<p ng-click="showDesc()">{{x.exper_desc}}</p>
+					<p ng-click="showDesc()" title="Click me to see more Information">{{x.exper_desc}}</p>
 					<p ng-show="showSkill"><span style="color: red">Skills: &nbsp;&nbsp;&nbsp; {{x.exper_skill}}</span></p>
 				</td>
 			</tr>
 		</table>
 	</article>	
+	<article class="row" id="hr">
+		<hr>
+	</article>
+	<article class="row" id="interest">
+		<section>
+			<h3>Interests:</h3>
+			<p>Now I’m more interesting in improving my skills in Web Development (Front-End web development and Back-End web development).</p>
+			<picture>
+				<img class="img-responsive img-rounded" src="images/Front-End Web Developer.png" alt="Front-End Web Developer Certificate." width="40%" height="40%" style="padding: 2% 0">
+			</picture>
+		</section>
+	</article>
+	<article class="row" id="hr">
+		<hr>
+	</article>
+	<article class="row" id="work">
+		<h3>Work:</h3>
+		<p>I have designed some simple website from PSD images or from my mind.</p>
+		<section>
+			<table id="table">
+				<tr ng-repeat="x in works">
+					<td class="row col-md-7" style="float: left;">
+						<div style="padding-left: 10%">
+							<a href={{x.url}} target="_blank"><img class="img-responsive img-rounded" src={{x.imageSrc}} alt={{x.name}} title={{x.name}}></a>
+						</div>
+					</td>
+					<td class="row col-md-5" style="text-align: left;">
+						<div style="padding-right: 10%">
+							<h3>{{x.name}}</h3>
+							<a href={{x.url}} target="_blank" style="text-decoration: none;">{{x.url}}</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</article>
+	<article class="row" id="hr">
+		<hr>
+	</article>
+	<article class="row" id="contact">
+		<section>
+			<br><p>Contact Me:</p>
+			<form>
+				<div class="col-md-4">
+					<input class="col-md-12" type="text" name="name" ng-model="name" placeholder="Name" required>
+				</div>
+				<div class="col-md-4">
+					<input class="col-md-12" type="email" name="email" ng-model="email" placeholder="Email" required>
+				</div>
+				<div class="col-md-4">
+					<input class="col-md-12" type="tel" name="phone" ng-model="phone" placeholder="Phone" required>
+				</div>
+				<div class="col-md-12">
+					<textarea class="col-md-12" name="message" ng-model="msg" placeholder="Message" rows="6" required></textarea>
+				</div>
+				<div class="col-md-12" >
+					<input class="col-md-1" id="submit" type="submit" name="submit" ng-model="submit" value="SEND">
+				</div>
+			</form>
+		</section>
+	</article>
+	<article class="row" id="hr">
+		<hr>
+	</article>
+	<footer class="row" id="footer">
+		<p class="col-md-12">Badr Shahin</p>
+		<div>
+			<h3>&copy; All rights reserved, Badr Shahin 2017-2018.</h3>
+			<ul id="socialUl">
+				<li ng-repeat="icon in socialIcons"><a class={{icon.class}} href={{icon.url}} target="_blank"></a></li>
+			</ul>
+		</div>
+	</footer>
 </body>
 </html>
