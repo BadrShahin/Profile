@@ -78,20 +78,52 @@ hr{
 }
 #table{
 	width: 100%;
+	padding: 0 2%;
 	font-size: 20px;
 	text-align: left;
 }
-th p{
+th p, #interest h3, #work h3, #contact p{
+	font-weight: bolder;
 	font-size: 25px;
 }
 #table, th, td{
-  	padding: 5px;
+	padding: 1% 2%;
 }
 #table tr:nth-child(odd){
   background-color: #f1f1f1;
 }
 #table tr:nth-child(even){
   background-color: #ffffff;
+}
+#interest, #work, #contact{
+	padding: 0 2%;
+	font-size: 18px;
+  	background-color: #f1f1f1;
+}
+#contact{
+	color: #fff;
+}
+#contact input, #contact textarea{
+	color: #fff;
+	margin: 2% 0;
+	font-size: 20px;
+	background: unset;
+	border-radius: 5px;
+	border: 2px solid #CCC;
+	resize: none;
+}
+#contact #submit{
+	border: 2px solid #CCC;
+	background-color: #4CAF50;
+}
+#footer{
+	color: #fff;
+	padding: 0 0 0 5%;
+	font-weight: bolder;
+}
+#footer p{
+	font-size: 25px;
+	padding: 3% 0 0 0;
 }
 @media screen and (max-width: 992px){
 	#logoImage{
