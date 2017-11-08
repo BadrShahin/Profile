@@ -100,6 +100,10 @@ th p, #interest h3, #work h3, #contact p{
 	font-size: 18px;
   	background-color: #f1f1f1;
 }
+#work td{
+	float: left;
+	padding: 10px 0 10px 15%;
+}
 #front_end_image{
 	padding: 1%;
 	border: 5px solid #FFF;
@@ -190,5 +194,8 @@ th p, #interest h3, #work h3, #contact p{
 	}
 	th p, #work, h3{
 		font-size: 14px;
+	}
+	#work td{
+		padding: 10px;
 	}
 }
