@@ -96,7 +96,7 @@
 	</article>
 	<article class="row" id="interest">
 		<section>
-			<h3>Interests:</h3>
+			<p id="interestHead">Interests:</p>
 			<p>Now I’m more interesting in improving my skills in Web Development (Front-End web development and Back-End web development).</p>
 			<div>
 				<picture>
@@ -109,7 +109,7 @@
 		<hr>
 	</article>
 	<article class="row" id="work">
-		<h3>Work:</h3>
+		<p id="workHead">Work:</p>
 		<p>I have designed some simple website from PSD images or from my mind.</p>
 		<section>
 			<table id="table">
@@ -120,6 +120,12 @@
 							<div id="websiteName"><a href={{x.url}} target="_blank" style="text-decoration: none;"><h3 title={{x.name}}>{{x.name}}</h3></a></div>
 						</div>
 					</td>
+					<!-- <td class="row col-md-5" style="text-align: left;  padding: 10px 15% 10px 0;">
+						<div id="workDiv">
+							<h3>{{x.name}}</h3>
+							<a href={{x.url}} target="_blank" style="text-decoration: none;">{{x.url}}</a>
+						</div>
+					</td> -->
 				</tr>
 			</table>
 		</section>
