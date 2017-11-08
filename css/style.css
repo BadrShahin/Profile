@@ -166,4 +166,10 @@ th p, #interest h3, #work h3, #contact p{
 	#table, th, td{
   		padding: 7px 0 0 7px;
 	}
+	#footer p, #footer h3, #contact input, #contact textarea, #contact #submit, #interest, #work div h3{
+		font-size: 14px;
+	}
+	#work{
+		font-size: 12px;
+	}
 }
