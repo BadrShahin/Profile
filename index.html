@@ -98,9 +98,11 @@
 		<section>
 			<h3>Interests:</h3>
 			<p>Now I’m more interesting in improving my skills in Web Development (Front-End web development and Back-End web development).</p>
-			<picture>
-				<img class="img-responsive img-rounded" src="images/Front-End Web Developer.png" alt="Front-End Web Developer Certificate." width="40%" height="40%" style="padding: 2% 0">
-			</picture>
+			<div>
+				<picture>
+					<img id="front_end_image" class="img-responsive img-rounded" src="images/Front-End Web Developer.png" alt="Front-End Web Developer Certificate." width="40%" height="40%" style="padding: 2% 0">
+				</picture>
+			</div>
 		</section>
 	</article>
 	<article class="row" id="hr">
@@ -112,15 +114,10 @@
 		<section>
 			<table id="table">
 				<tr ng-repeat="x in works">
-					<td class="row col-md-7" style="float: left;">
-						<div style="padding-left: 10%">
+					<td class="row col-md-6" style="float: left; padding: 10px 0 10px 15%;">
+						<div id="workDiv">
 							<a href={{x.url}} target="_blank"><img class="img-responsive img-rounded" src={{x.imageSrc}} alt={{x.name}} title={{x.name}}></a>
-						</div>
-					</td>
-					<td class="row col-md-5" style="text-align: left;">
-						<div style="padding-right: 10%">
-							<h3>{{x.name}}</h3>
-							<a href={{x.url}} target="_blank" style="text-decoration: none;">{{x.url}}</a>
+							<div id="websiteName"><a href={{x.url}} target="_blank" style="text-decoration: none;"><h3 title={{x.name}}>{{x.name}}</h3></a></div>
 						</div>
 					</td>
 				</tr>
