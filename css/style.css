@@ -198,4 +198,8 @@ th p, #interest h3, #work h3, #contact p{
 	#work td{
 		padding: 10px;
 	}
+	#work td{
+		padding: 0;
+		margin: 0;
+	}
 }
