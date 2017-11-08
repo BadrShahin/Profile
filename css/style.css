@@ -82,7 +82,7 @@ hr{
 	font-size: 20px;
 	text-align: left;
 }
-th p, #interest h3, #work h3, #contact p{
+th p, #interestHead, #workHead, #contact p{
 	font-weight: bolder;
 	font-size: 25px;
 }
@@ -192,7 +192,7 @@ th p, #interest h3, #work h3, #contact p{
 	#menuUl li, #footer p, #contact input, #contact textarea, #contact #submit, #interest, #work{
 		font-size: 12px;
 	}
-	th p, #work h3, #interest h3, #contact p, h3{
+	th p, #interestHead, #workHead, #contact p{
 		font-size: 14px;
 	}
 	#work td{
