@@ -100,6 +100,31 @@ th p, #interest h3, #work h3, #contact p{
 	font-size: 18px;
   	background-color: #f1f1f1;
 }
+#front_end_image{
+	padding: 1%;
+	border: 5px solid #FFF;
+	box-shadow: 5px 5px 5px #777;
+}
+#workDiv{
+	position: relative;
+	border: 5px solid #FFF;
+	box-shadow: 5px 5px 5px #777;
+}
+#workDiv img:hover{
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+#websiteName{
+	color: none;
+    position: absolute;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#websiteName h3:hover{
+	color: #F00;
+}
 #contact{
 	color: #fff;
 }
