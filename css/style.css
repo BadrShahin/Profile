@@ -163,7 +163,7 @@ th p, #interest h3, #work h3, #contact p{
 	#menuUl li, #footer p, #contact input, #contact textarea, #contact #submit, #interest{
 		font-size: 12px;
 	}
-	th p, #work, #footer h3,  #work div h3{
+	th p, #work, h3{
 		font-size: 14px;
 	}
 }
