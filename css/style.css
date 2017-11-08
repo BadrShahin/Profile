@@ -144,7 +144,7 @@ th p, #interest h3, #work h3, #contact p{
 	#short_desc{
 		margin: 0;
 		float: right;
-		font-size: 12px;
+		font-size: 11px;
 		line-height: 15px;
 		padding: 2% 0 0 5%;
 		word-spacing: normal;
@@ -153,23 +153,17 @@ th p, #interest h3, #work h3, #contact p{
 		font-size: 6px;
 		word-spacing: normal;
 	}
-	#menuUl li{
-		font-size: 12px;
-	}
 	#table{
-		font-size: 14px;
+		font-size: 12px;
 		text-align: left;
-	}
-	th p{
-		font-size: 20px;
 	}
 	#table, th, td{
   		padding: 7px 0 0 7px;
 	}
-	#footer p, #footer h3, #contact input, #contact textarea, #contact #submit, #interest, #work div h3{
-		font-size: 14px;
-	}
-	#work{
+	#menuUl li, #footer p, #contact input, #contact textarea, #contact #submit, #interest{
 		font-size: 12px;
+	}
+	th p, #work, #footer h3,  #work div h3{
+		font-size: 14px;
 	}
 }
