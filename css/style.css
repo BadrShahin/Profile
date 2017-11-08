@@ -189,14 +189,11 @@ th p, #interest h3, #work h3, #contact p{
 	#table, th, td{
   		padding: 7px 0 0 7px;
 	}
-	#menuUl li, #footer p, #contact input, #contact textarea, #contact #submit, #interest{
+	#menuUl li, #footer p, #contact input, #contact textarea, #contact #submit, #interest, #work{
 		font-size: 12px;
 	}
-	th p, #work, h3{
+	th p, #work h3, #interest h3, #contact p, h3{
 		font-size: 14px;
-	}
-	#work td{
-		padding: 10px;
 	}
 	#work td{
 		padding: 0;
