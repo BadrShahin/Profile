@@ -11,6 +11,15 @@
 		#contact{
 			background-image: url('images/creative.jpg');
 		}
+		#navbar {
+		  background-color: #333;
+		  position: fixed;
+		  top: -50px;
+		  width: 87%;
+		  display:block;
+		  transition: top 0.5s;
+		}
+
 	</style>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<!-- Add icon library -->
@@ -24,7 +33,7 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
-<body class="container" ng-app="myApp" ng-controller="myCtrl" id="portfolio">
+<body class="container" ng-app="myApp" ng-controller="myCtrl" id="portfolio" onscroll="myFunction()">
 	<header class="row">
 		<section>
 			<div class="col-md-2">
@@ -38,7 +47,7 @@
 				</ul>
 				<h1 class="row col-md-10 text-capitalize" id="short_desc">hi! <br> i'm a front-end web developer.<br><span>html html5 css bootstrap javascript angularJs php-basic mySQL. </span></h1>
 			</div>
-			<div class="topnav col-md-12">
+			<div class="topnav col-md-12" id="navbar">
 				<ul id="menuUl">
 					<li ng-repeat="item in menuItems">
 						<a href={{item.url}}>{{item.name}}</a>
@@ -51,7 +60,7 @@
 	<article class="row" id="hr">
 		<hr>
 	</article>
-	<article class="row">
+	<article class="row" id="about">
 		<table id="table" style="text-align: left;" id="about">
 			<th colspan="2"><p>Personal Information:</p></th>
 			<tr ng-repeat="x in info">
@@ -167,7 +176,17 @@
 			</ul>
 		</div>
 	</footer>
-	<div>
-	</div>
+	<script>
+	// When the user scrolls down 20px from the top of the document, slide down the navbar
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("navbar").style.top = "0";
+	    } else {
+	        document.getElementById("navbar").style.top = "-50px";
+	    }
+	}
+	</script>
 </body>
 </html>
