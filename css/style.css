@@ -4,7 +4,7 @@ body{
 }
 #logoImage{
 	float: left;
-	margin: 8% 0 15% 35%;
+	margin: 13% 0 15% 35%;
 	box-shadow: 10px 10px 10px;
 	cursor: pointer;
 	transition: all linear 0.25s;
@@ -19,9 +19,6 @@ body{
 }
 #socialUl a, #menuUl a{
 	text-decoration: none;
-}
-.topnav{
-	background-color: #222;
 }
 #menuUl li{
 	float: left;
