@@ -45,6 +45,7 @@ angular.module("myApp", []).controller("myCtrl", function($scope){
 	}
 
 	$scope.works=[
+	{name: 'Master Vision', imageSrc: 'images/masterVisionLogo.png', url: 'https://badrshahin.github.io/Master-Vision-Company/'},
 	{name: 'Online Media', imageSrc: 'images/online.jpg', url: 'https://ma114u.000webhostapp.com/'},
 	{name: 'Creatives Digital Agency', imageSrc: 'images/creative.jpg', url: 'https://badrshahin.github.io/Creative-Digital-Agencies-Website-/'},
 	{name: 'jewelery', imageSrc: 'images/jewelery.jpg', url: 'https://badrshahin.github.io/Jewelery-website-/'},
