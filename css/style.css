@@ -12,8 +12,9 @@ body{
 #logoImage:hover {
 	transform:scale(1.25);
 }
-
-/* Style all font awesome icons */
+#navbar{
+	z-index: 2;
+}
 #socialUl, #menuUl{
 	list-style-type: none;
 }
